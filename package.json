@@ -1,5 +1,6 @@
 {
   "name": "react-router",
+  "homepage": "http://umeshuhb.github.io/react-router",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
