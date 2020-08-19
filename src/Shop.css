@@ -1,0 +1,29 @@
+nav {
+    display: block;
+    background: #000;
+    color: #FFF;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.shoplist ul{
+    background: #ff6e64;
+}
+
+li a.active{
+    text-decoration: underline;
+}
+li { list-style: none;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+li a {
+    color: #FFF;
+    border:none;
+    text-decoration: none;
+}
