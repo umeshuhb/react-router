@@ -14,7 +14,10 @@ ul{
 }
 
 li a.active{
-    text-decoration: underline;
+    text-decoration: none;
+    background: grey;
+    padding:5px 10px;
+    border-radius: 7px;
 }
 li { list-style: none;
     display: inline-block;
@@ -26,4 +29,5 @@ li a {
     color: #FFF;
     border:none;
     text-decoration: none;
+    padding: 5px 10px;
 }

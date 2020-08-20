@@ -9,18 +9,20 @@ import Shoplist from './components/Shop/Shoplist';
 import Shop from './components/Shop/Shop';
 
 function App() {
+
+    const path = '/react-router';
   return (
       <div className="app">
 
         <Router>
             <Nav />
 
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/contact" component={Contact} />
-                <Route path="/shop" component={Shoplist}>
+                <Route exact path={`${path}/`} component={Home} />
+                <Route path={`${path}/about`} component={About} />
+                <Route path={`${path}/contact`} component={Contact} />
+                <Route path={`${path}/shop`} component={Shoplist}>
                 </Route>
-                <Route path="/shop/:id" component={Shop}></Route>
+                <Route path={`${path}/shop/:id`} component={Shop}></Route>
 
         </Router>
       </div>
