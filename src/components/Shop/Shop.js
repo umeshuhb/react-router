@@ -7,7 +7,7 @@ const Shop = ({match})=> {
     const key = '87ea9972';
     const applicationKey = 'b5185cdc79af3b0e68168a01d77023ad';
 
-    console.log(match);
+   // console.log(match);
     const [items, setItems] = useState([{
         recipe : {}
     }]);
